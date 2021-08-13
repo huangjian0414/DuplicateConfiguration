@@ -1,4 +1,4 @@
-//#include "Pods/Target Support Files/Pods-DuplicateConfigurationTest/Pods-DuplicateConfigurationTest.debug.xcconfig"
+#include "Pods/Target Support Files/Pods-DuplicateConfigurationTest/Pods-DuplicateConfigurationTest.debug.xcconfig"
 #include "base.xcconfig"
 
 hj_ONLY_ACTIVE_ARCH = YES

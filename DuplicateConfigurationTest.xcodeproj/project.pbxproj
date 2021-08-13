@@ -8,23 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		6B51FA2786499416E022AD8F /* libPods-DuplicateConfigurationTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 402776B688594947ACFF92E4 /* libPods-DuplicateConfigurationTest.a */; };
-		8773F01826C540A500F7AE92 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8773F01726C540A500F7AE92 /* HealthKit.framework */; };
-		8773F01B26C5426700F7AE92 /* AxLocationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8773F01926C5426700F7AE92 /* AxLocationTool.m */; };
+		875F7F8226C6A3FC0064912D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875F7F8126C6A3FB0064912D /* Assets.xcassets */; };
 		8773F01D26C5440100F7AE92 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8773F01C26C5440100F7AE92 /* Settings.bundle */; };
 		8793FC9126C4AE81007181BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8793FC9026C4AE81007181BC /* AppDelegate.m */; };
 		8793FC9726C4AE81007181BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8793FC9626C4AE81007181BC /* ViewController.m */; };
 		8793FC9A26C4AE81007181BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8793FC9826C4AE81007181BC /* Main.storyboard */; };
-		8793FC9C26C4AE82007181BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8793FC9B26C4AE82007181BC /* Assets.xcassets */; };
 		8793FC9F26C4AE82007181BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8793FC9D26C4AE82007181BC /* LaunchScreen.storyboard */; };
 		8793FCA226C4AE82007181BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8793FCA126C4AE82007181BC /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		402776B688594947ACFF92E4 /* libPods-DuplicateConfigurationTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DuplicateConfigurationTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		875F7F8126C6A3FB0064912D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8773F01626C540A500F7AE92 /* DuplicateConfigurationTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DuplicateConfigurationTest.entitlements; sourceTree = "<group>"; };
-		8773F01726C540A500F7AE92 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
-		8773F01926C5426700F7AE92 /* AxLocationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxLocationTool.m; sourceTree = "<group>"; };
-		8773F01A26C5426700F7AE92 /* AxLocationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxLocationTool.h; sourceTree = "<group>"; };
 		8773F01C26C5440100F7AE92 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		8793FC8C26C4AE81007181BC /* DuplicateConfigurationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuplicateConfigurationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8793FC8F26C4AE81007181BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -32,7 +28,6 @@
 		8793FC9526C4AE81007181BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8793FC9626C4AE81007181BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8793FC9926C4AE81007181BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8793FC9B26C4AE82007181BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8793FC9E26C4AE82007181BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8793FCA026C4AE82007181BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8793FCA126C4AE82007181BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,7 +48,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B51FA2786499416E022AD8F /* libPods-DuplicateConfigurationTest.a in Frameworks */,
-				8773F01826C540A500F7AE92 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,8 +75,6 @@
 		8793FC8E26C4AE81007181BC /* DuplicateConfigurationTest */ = {
 			isa = PBXGroup;
 			children = (
-				8773F01A26C5426700F7AE92 /* AxLocationTool.h */,
-				8773F01926C5426700F7AE92 /* AxLocationTool.m */,
 				8773F01626C540A500F7AE92 /* DuplicateConfigurationTest.entitlements */,
 				8793FCB526C4B7D6007181BC /* xcconfig */,
 				8793FC8F26C4AE81007181BC /* AppDelegate.h */,
@@ -90,8 +82,8 @@
 				8773F01C26C5440100F7AE92 /* Settings.bundle */,
 				8793FC9526C4AE81007181BC /* ViewController.h */,
 				8793FC9626C4AE81007181BC /* ViewController.m */,
+				875F7F8126C6A3FB0064912D /* Assets.xcassets */,
 				8793FC9826C4AE81007181BC /* Main.storyboard */,
-				8793FC9B26C4AE82007181BC /* Assets.xcassets */,
 				8793FC9D26C4AE82007181BC /* LaunchScreen.storyboard */,
 				8793FCA026C4AE82007181BC /* Info.plist */,
 				8793FCA126C4AE82007181BC /* main.m */,
@@ -123,7 +115,6 @@
 		A915B457D478962069C7DA75 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8773F01726C540A500F7AE92 /* HealthKit.framework */,
 				879C286726C51B0B001A7F0D /* Pods_DuplicateConfigurationTest.framework */,
 				C1227CFC5CB2401C93FCCD01 /* Pods_DuplicateConfigurationTest.framework */,
 				402776B688594947ACFF92E4 /* libPods-DuplicateConfigurationTest.a */,
@@ -164,7 +155,7 @@
 						CreatedOnToolsVersion = 12.2;
 						SystemCapabilities = {
 							com.apple.HealthKit = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -195,7 +186,7 @@
 			files = (
 				8773F01D26C5440100F7AE92 /* Settings.bundle in Resources */,
 				8793FC9F26C4AE82007181BC /* LaunchScreen.storyboard in Resources */,
-				8793FC9C26C4AE82007181BC /* Assets.xcassets in Resources */,
+				875F7F8226C6A3FC0064912D /* Assets.xcassets in Resources */,
 				8793FC9A26C4AE81007181BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,7 +226,6 @@
 				8793FC9726C4AE81007181BC /* ViewController.m in Sources */,
 				8793FC9126C4AE81007181BC /* AppDelegate.m in Sources */,
 				8793FCA226C4AE82007181BC /* main.m in Sources */,
-				8773F01B26C5426700F7AE92 /* AxLocationTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,7 +371,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = DuplicateConfigurationTest/DuplicateConfigurationTest.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3L3CTV58P3;
@@ -410,7 +399,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = DuplicateConfigurationTest/DuplicateConfigurationTest.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3L3CTV58P3;
@@ -494,7 +482,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = DuplicateConfigurationTest/DuplicateConfigurationTest.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3L3CTV58P3;
