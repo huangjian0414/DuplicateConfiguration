@@ -1,0 +1,6 @@
+framework module Pods_DuplicateConfigurationTest {
+  umbrella header "Pods-DuplicateConfigurationTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
