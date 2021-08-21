@@ -5,7 +5,10 @@ hj_ONLY_ACTIVE_ARCH = YES
 hj_CFBundleVersion = 1.0.3
 
 //预编译头参数 也可·Project -> Build settings -> Apple LLVM 7.1 - Preprocessing·设置
-baseUrl = @"http:\/\/ly.api_debug.cn" //不同环境的server
+baseUrl = @"http:/$()/ly.api_debug.cn" //不同环境的server
+//baseUrl = @"http:/\/\ly.api_debug.cn"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) hjconfig=1 BaseUrl='${baseUrl}'
+
+
 
 
